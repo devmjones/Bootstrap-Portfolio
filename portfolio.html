@@ -5,6 +5,10 @@
     <title>All About Devon</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -20,11 +24,8 @@
 
 <body>
 <nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header header">
-            <div class="teal heading"><a class="navbar-brand" href="#">DEVON</a></div>
-        </div>
+    <div class="middleContent">
+        <a class="navbar-brand" href="#">Devon Jones</a>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
@@ -33,69 +34,76 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+    </div><!-- /.middleContent -->
 </nav>
 <div class="mainBodyArea">
-    <div class="mainBodyContent">
+    <div class="middleContent">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-8">
-                    <div class="panel panel-default">
+                    <div class="panel panel-default portfolio">
+                        <div class="panel-heading">Portfolio</div>
                         <div class="panel-body">
-                            <div class="contentSection pageContent portfolio">
-                                <h1 class="title">Portfolio</h1>
-                                <a href="#">
-                                    <div class="project">
-                                        <div class="picture">
-                                            <img src="assets/images/pink.jpg" alt="Hair">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <a href="#">
+                                        <div class="project">
+                                            <div class="picture">
+                                                <img src="assets/images/pink.jpg" alt="Hair">
+                                            </div>
+                                            <div class="teal caption">Hair</div>
                                         </div>
-                                        <div class="teal caption">Hair</div>
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <div class="project">
-                                        <div class="picture">
-                                            <img src="assets/images/houndie.jpg" alt="Fur Babies">
+                                    </a>
+                                </div>
+                                <div class="col-sm">
+                                    <a href="#">
+                                        <div class="project">
+                                            <div class="picture">
+                                                <img src="assets/images/houndie.jpg" alt="Fur Babies">
+                                            </div>
+                                            <div class="teal caption">Fur Babies</div>
                                         </div>
-                                        <div class="teal caption">Fur Babies</div>
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <div class="project">
-                                        <div class="picture">
-                                            <img src="assets/images/derby.jpg" alt="Hobbies">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm">
+                                    <a href="#">
+                                        <div class="project col-sm">
+                                            <div class="picture">
+                                                <img src="assets/images/derby.jpg" alt="Hobbies">
+                                            </div>
+                                            <div class="teal caption">Hobbies</div>
                                         </div>
-                                        <div class="teal caption">Hobbies</div>
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <div class="project">
-                                        <div class="picture">
-                                            <img src="assets/images/march.jpg" alt="Values">
+                                    </a>
+                                </div>
+                                <div class="col-sm">
+                                    <a href="#">
+                                        <div class="project">
+                                            <div class="picture">
+                                                <img src="assets/images/march.jpg" alt="Values">
+                                            </div>
+                                            <div class="teal caption">Values</div>
                                         </div>
-                                        <div class="teal caption">Values</div>
-                                    </div>
-                                </a>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="panel panel-default">
+                    <div class="panel panel-default connect">
+                        <div class="panel-heading">Connect With Me</div>
                         <div class="panel-body">
-                            <h3>Connect With Me</h3>
-                            <hr>
-                            <div class="contentSection contact">
-                                <a href="https://github.com/devmjones">
-                                    <img src="assets/images/github.png" alt="Github">
-                                </a>
-                                <a href="https://www.linkedin.com/in/devmjones/">
-                                    <img src="assets/images/linkedin.png" alt="LinkedIn">
-                                </a>
-                                <a href="https://stackexchange.com/users/7854494/devon-jones">
-                                    <img src="assets/images/stackoverflow.png" alt="Stack Overflow">
-                                </a>
-                            </div>
+                            <a href="https://github.com/devmjones">
+                                <img src="assets/images/github.png" alt="Github">
+                            </a>
+                            <a href="https://www.linkedin.com/in/devmjones/">
+                                <img src="assets/images/linkedin.png" alt="LinkedIn">
+                            </a>
+                            <a href="https://stackexchange.com/users/7854494/devon-jones">
+                                <img src="assets/images/stackoverflow.png" alt="Stack Overflow">
+                            </a>
                         </div>
                     </div>
                 </div>
